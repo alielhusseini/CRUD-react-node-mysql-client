@@ -21,7 +21,7 @@ function App() {
         <input onChange={ handleChange } value={ obj.country } type="text" id="country" />
         <label htmlFor="position">Position:</label>
         <input onChange={ handleChange } value={ obj.position } type="text" id="position" />
-        <label htmlFor="wage">Wage:</label>
+        <label htmlFor="wage">Wage(year):</label>
         <input onChange={ handleChange } value={ obj.wage } type="number" id="wage" />
         <button onClick={ addEmployee }>Add employee</button>
       </div>
