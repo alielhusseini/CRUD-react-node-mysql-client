@@ -26,7 +26,7 @@ body {
     align-items: center;
 }
 
-.information input {
+input {
     width: 300px;
     height: 50px;
     font-size: 20px;
@@ -34,12 +34,49 @@ body {
     margin: 5px;
 }
 
-.information button {
+button {
     width: 320px;
     height: 50px;
     margin-top: 30px;
 }
 
-.information button:hover {
+button:hover {
     cursor: pointer;
+}
+
+.underline {
+    height: 3px;
+    width: 100vw;
+    margin-top: 35px;
+    background-color: #fff;
+}
+
+.employees {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.container {
+    border: 1px solid #fff;
+    margin: 40px 0;
+    width: 50%;
+}
+
+.employee {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.delete {
+    color: #fff;
+    background-color: red;
+    width: 100%;
+    margin-top: 5px;
 }
